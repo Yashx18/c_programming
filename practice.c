@@ -13,8 +13,9 @@
 //     return 0;
 // }
 
+// Use of && AND operator if both the conditions are true only then output will be 1(true).
 #include <stdio.h>
 int main(){
-    printf("%d",5+2/2*3);
+    printf("%d",4<5 && 3>2);
     return 0;
 }
