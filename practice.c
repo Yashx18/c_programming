@@ -105,27 +105,27 @@
 //     printf("Enter percentage here :");
 //     scanf("%d", &percentage);
 
-//     if (percentage > 90)
+//     if (percentage >= 90)
 //     {
 //         printf("Grade A++");
 //     }
-//     else if (percentage > 80 && percentage < 90)
+//     else if (percentage < 90 && percentage >= 80)
 //     {
 //         printf("Grade A+");
 //     }
-//     else if (percentage < 80 && percentage > 70)
+//     else if (percentage < 80 && percentage >= 70)
 //     {
 //         printf("Grade B");
 //     }
-//     else if (percentage < 70 && percentage > 60)
+//     else if (percentage < 70 && percentage >= 60)
 //     {
 //         printf("Grade C");
 //     }
-//     else if (percentage < 50 && percentage > 60)
+//     else if (percentage < 60 && percentage >= 50)
 //     {
 //         printf("Grade D");
 //     }
-//     else if (percentage < 50 && percentage > 33)
+//     else if (percentage < 50 && percentage >= 33)
 //     {
 //         printf("Grade E");
 //     }
