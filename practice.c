@@ -137,3 +137,122 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+// #include <math.h>
+// int main(){
+//     int num;
+//     printf("Enter number here :");
+//     scanf("%d", &num);
+
+//     num >= 99 ? printf("Three digit number") : printf("Two digit number");
+//     // in this above line "Ternary operator" is used, it reduces the number of lines used to state a conditional statement.
+  
+
+//     }
+
+
+// #include <stdio.h>
+// #include<math.h>
+//  int main(){
+//     int day;
+//     printf("Enter day number(1 to 7):");
+//     scanf("%d",&day);
+//     // Use of Switch statement instead of if/else-if/else
+//     switch(day){
+//         case 1:
+//         printf("Monday");
+//         break;
+//         case 2:
+//         printf("Tuesday");
+//         break;
+//         case 3:
+//         printf("Wednesday");
+//         break;
+//         case 4:
+//         printf("Thursday");
+//         break;
+//         case 5:
+//         printf("Friday");
+//         break;
+//         case 6:
+//         printf("Saturday");
+//         break;
+//         case 7:
+//         printf("Sunday");
+//         break;
+//         default:
+//         printf("Enter valid day between 1 to 7");
+//     }
+//     return 0;
+//  }
+
+// Practice Question  
+// #include<stdio.h>
+// int main(){
+//     int marks;
+//     printf("Enter marks here(0-100):");
+//     scanf("%d",&marks);
+
+//     // IF/ELSE WAY
+//     // if (marks<=30)
+//     // {
+//     //     printf("Fail");
+//     // } else if( marks>30 && marks<=100) {
+//     //     printf("Pass");
+//     // } else {
+//     //     printf("Enter valid marks");
+//     // }
+    
+// // TERNARY WAY
+// marks<=30?printf("Fail \n") : printf("Pass \n");
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+//  #include <math.h>
+//  int main()
+//  {
+//      int marks;
+
+//     printf("Enter marks here :");
+//      scanf("%d", &marks);
+
+//      if ( marks <=100 && marks >= 90)
+//     {
+//          printf("Grade A+");
+//      }
+//      else if (marks < 90 && marks >= 70)
+//      {
+//          printf("Grade A");
+//      }
+//      else if (marks < 70 && marks >= 30)
+//      {
+//         printf("Grade B");
+//     }
+//     else if(marks < 30 )
+//     {
+//         printf("Grade C");
+//         return 0; }
+//         else{
+//             printf("Enter valid  marks");
+//         }
+//  }
+// CODE TO DETERMINE WHETHER CHARACHTER ENTERED IS UPPERCASE OR LOWERCASE
+// #include<stdio.h>
+// int main(){
+//    char ch;
+//    printf("Enter charachter :");
+//    scanf("%c",&ch);
+
+//    if (ch >= 'A' && ch <= 'Z'){
+//     printf("UPPERCASE");
+//    } else if(ch >= 'a' && ch <= 'z'){
+//      printf("LOWERCASE");
+
+//    } else {
+//     printf("not an english letter\n");
+//    }
+
+//     return 0;
+// }

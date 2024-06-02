@@ -1,5 +1,5 @@
-#include <stdio.h>
-// int main(){
-//     printf("%d",4<5 && 3>2);
-//     return 0;
-// }
+#include<stdio.h>
+int main(){
+   char ch;
+   printf("Enter charachter :");
+   scanf("%c",&ch);
