@@ -96,44 +96,44 @@
 // return 0;
 //  }
 
-#include <stdio.h>
-#include <math.h>
-int main()
-{
-    int percentage;
+// #include <stdio.h>
+// #include <math.h>
+// int main()
+// {
+//     int percentage;
 
-    printf("Enter percentage here :");
-    scanf("%d", &percentage);
+//     printf("Enter percentage here :");
+//     scanf("%d", &percentage);
 
-    if (percentage > 90)
-    {
-        printf("Grade A++");
-    }
-    else if (percentage > 80 && percentage < 90)
-    {
-        printf("Grade A+");
-    }
-    else if (percentage < 80 && percentage > 70)
-    {
-        printf("Grade B");
-    }
-    else if (percentage < 70 && percentage > 60)
-    {
-        printf("Grade C");
-    }
-    else if (percentage < 50 && percentage > 60)
-    {
-        printf("Grade D");
-    }
-    else if (percentage < 50 && percentage > 33)
-    {
-        printf("Grade E");
-    }
-    else
-    {
-        printf("Fail");
-    }
+//     if (percentage > 90)
+//     {
+//         printf("Grade A++");
+//     }
+//     else if (percentage > 80 && percentage < 90)
+//     {
+//         printf("Grade A+");
+//     }
+//     else if (percentage < 80 && percentage > 70)
+//     {
+//         printf("Grade B");
+//     }
+//     else if (percentage < 70 && percentage > 60)
+//     {
+//         printf("Grade C");
+//     }
+//     else if (percentage < 50 && percentage > 60)
+//     {
+//         printf("Grade D");
+//     }
+//     else if (percentage < 50 && percentage > 33)
+//     {
+//         printf("Grade E");
+//     }
+//     else
+//     {
+//         printf("Fail");
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
