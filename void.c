@@ -143,15 +143,15 @@
 // }
 
 
-#include<stdio.h>
-int main(){
-  int n ;
-  printf("Enter number here :");
-  scanf("%d",&n );
-int  sum=0;
-for(int i=1; i<= n ; i++ ){
-  sum = i+sum;
-  printf("%d \n",sum);
-}
-  return 0;
-}
+// #include<stdio.h>
+// int main(){
+//   int n ;
+//   printf("Enter number here :");
+//   scanf("%d",&n );
+// int  sum=0;
+// for(int i=1; i<= n ; i++ ){
+//   sum = i+sum;
+//   printf("%d \n",sum);
+// }
+//   return 0;
+// }

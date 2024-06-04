@@ -92,3 +92,56 @@
 //     return 0;
 // }
 
+// Code to check whether charachter entered is a digit or not.
+// #include <stdio.h>
+// int main()
+// {
+//     char x;
+//     printf("Enter Charachter :");
+//     scanf("%c",&x);
+//     if ( x >='0' && x<='9')
+//     {
+//         printf("It is a digit.");
+//     } else{
+//         printf("Not a digit");
+//     }
+//     return 0;
+// }
+
+// Program to check the smallest number out of 3.
+// #include <stdio.h>
+// int main()
+// {
+//     int a,b,c;
+//     printf("Enter first number :");
+//     scanf("%d",&a);
+//      printf("Enter second number :");
+//     scanf("%d",&b);
+//      printf("Enter third number :");
+//     scanf("%d",&c);
+
+//     if(a<b && a<c){
+//         printf("%d is smallest",a);
+//     } else if(b<a && b<c){
+//         printf("%d is smallest",b);
+//     } else if(c<a && c<b){
+//         printf("%d is smallest",c);
+//     }
+   
+      
+//     return 0;
+// }
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Enter number :");
+    scanf("%d",a);
+    if(a>=1){
+        printf("Natural number");
+    }
+    else{
+        printf("Not natural number");
+    }
+    return 0;
+}
