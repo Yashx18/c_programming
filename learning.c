@@ -132,16 +132,16 @@
 //     return 0;
 // }
 
-#include<stdio.h>
-int main(){
-    int a;
-    printf("Enter number :");
-    scanf("%d",a);
-    if(a>=1){
-        printf("Natural number");
-    }
-    else{
-        printf("Not natural number");
-    }
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Enter number :");
+//     scanf("%d",a);
+//     if(a>=1){
+//         printf("Natural number");
+//     }
+//     else{
+//         printf("Not natural number");
+//     }
+//     return 0;
+// }
