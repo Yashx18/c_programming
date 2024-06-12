@@ -145,3 +145,93 @@
 //     }
 //     return 0;
 // }
+
+// STARTING FUNCTIONS IN C.
+
+
+// #include<stdio.h>
+// int main (){
+//     void print(){
+//         printf("Hello User !!");
+//     }
+//     print();
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+
+// // function declaration / prototype
+//  void Ph();
+// int main(){
+ 
+//    for(int i=1;i<=10;i++){
+//    Ph() ; //funtion Call
+//    }
+//     return 0;
+// }
+//  void Ph(){
+//     printf("Hello User !! \n"); //function definition
+//     printf("You are currently using the system of YASH. \n");
+//     printf("It is suggested that you should close the system after 5 minutes.");
+//  }
+
+// #include<stdio.h>
+// void gh(); //funtion to print HELLO (declaration / prototype)
+// void gb(); //function to print GOOD BYE (declaration / prototype)
+// int main(){
+
+//     gh(); //( function call)
+//     gb(); //( function call)
+
+//     return 0;
+// }
+// void gh(){
+//     printf("Hello !!\n"); //( Definition)
+// }
+// void gb(){
+//     printf("good bye :)\n");  //( Definition)
+// }
+
+//Write a function that prints Namaste if user is Indian & Bonjour if the user is french
+// #include<stdio.h>
+// void Indian();
+// void French();
+// int main(){
+//     char ethnicity;
+//     printf("Enter your ethnicity(F / I) :");
+//     scanf("%c",&ethnicity);
+
+//     if( ethnicity == 'I'){
+//         Indian();
+//     } else if( ethnicity == 'F'){
+//         French();
+//     } else {
+//         printf("Enter Valid Nationality");
+//     }
+//     return 0;
+// }
+// void Indian(){
+//     printf("Namaste\n");
+// }
+// void French(){
+//     printf("Bonjour\n");
+// }
+
+#include<stdio.h>
+int sum(int a , int b);
+int main(){
+    int a, b;
+    printf("Enter your first number");
+    scanf("%d",&a);
+    printf("Enter your second number");
+    scanf("%d",&b);
+
+   
+    
+    return 0;
+}
+int sum(int a , int b){
+    return 
+
+}
