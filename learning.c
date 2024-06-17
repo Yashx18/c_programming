@@ -218,20 +218,20 @@
 //     printf("Bonjour\n");
 // }
 
-#include<stdio.h>
-int sum(int a , int b);
-int main(){
-    int a, b;
-    printf("Enter your first number");
-    scanf("%d",&a);
-    printf("Enter your second number");
-    scanf("%d",&b);
+// #include<stdio.h>
+// int sum(int a , int b);
+// int main(){
+//     int a, b;
+//     printf("Enter your first number");
+//     scanf("%d",&a);
+//     printf("Enter your second number");
+//     scanf("%d",&b);
 
    
     
-    return 0;
-}
-int sum(int a , int b){
-    return 0;
+//     return 0;
+// }
+// int sum(int a , int b){
+//     return 0;
 
-}
+// }
