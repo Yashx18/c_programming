@@ -1,3 +1,16 @@
+#include<stdio.h>
+int main(){
+    int sum , n;
+    printf("Enter number:");
+    scanf("%d",&n);
+    for (int i = 1; i <=10; i++){
+         sum=n*i;
+         printf("%d\n",sum);
+        
+       
+    }
+    return 0;
+}
 // #include<stdio.h>
 // int main(){
 //     float radius;
