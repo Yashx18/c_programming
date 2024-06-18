@@ -1,28 +1,53 @@
 #include<stdio.h>
-#include<math.h>
-float square(float side);
-float circle(float radius);
-float rectangle(float len , float width);
+// void hello(int count);
 int main(){
-    float side = 16;
-    printf("Area of square with side %f is %f",side,square(side));
-    float len=16 , width=30;
-    printf("\nArea of rectangle with length %f and width %f is %f",len, width, rectangle(len,width));
-    float radius =18; 
-    printf("\nArea of circle with radius %f is %f",radius,circle(radius));
-
+   printf("start");
+   main();
+   printf("end");
     return 0;
 }
-float square(float side){
-   return side *side;
-}
-float circle( float radius){
-   return 3.14*radius*radius;
+// void hello(int count){
+//     printf("Hello World!!");
+// }
+// #include<stdio.h>
+// float cube(float num);
+// int main(){
+//     float num;
+//     printf("Enter Number:");
+//     scanf("%f",&num);
+
+//     printf("%f",cube(num));
+//     return 0;
+// }
+// float cube(float num){
+//     return num * num * num;
+
+// }
+// #include<stdio.h>
+// #include<math.h>
+// float square(float side);
+// float circle(float radius);
+// float rectangle(float len , float width);
+// int main(){
+//     float side = 16;
+//     printf("Area of square with side %f is %f",side,square(side));
+//     float len=16 , width=30;
+//     printf("\nArea of rectangle with length %f and width %f is %f",len, width, rectangle(len,width));
+//     float radius =18; 
+//     printf("\nArea of circle with radius %f is %f",radius,circle(radius));
+
+//     return 0;
+// }
+// float square(float side){
+//    return side *side;
+// }
+// float circle( float radius){
+//    return 3.14*radius*radius;
    
-}
-float rectangle(float len , float width){
-   return len * width;
-}
+// }
+// float rectangle(float len , float width){
+//    return len * width;
+// }
 
 
 // #include<stdio.h>
