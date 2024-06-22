@@ -1,3 +1,18 @@
+#include <stdio.h>
+int main() {
+	//array declaration
+	int rollNo[10];
+	
+	//taking inputs
+	for(int i=0;i<10;i++)
+	    scanf("%d",&rollNo[i]);
+	
+	//printing
+	for(int i=0;i<10;i++)
+	    printf("%d ",rollNo[i]);
+	return 0;
+}
+
 // // FOR LOOP 
 // // for loop to print numbers 1 to 100.
 // #include <stdio.h>
@@ -191,16 +206,16 @@
 
 //     return 0;
 // }
-#include<stdio.h>
-int main(){
-    for (int i = 1; i <= 10; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            printf("* ");
-        }
-        printf("\n");
-    }
+// #include<stdio.h>
+// int main(){
+//     for (int i = 1; i <= 10; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
