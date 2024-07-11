@@ -1,17 +1,71 @@
 #include <stdio.h>
-int main() {
-	//array declaration
-	int rollNo[10];
-	
-	//taking inputs
-	for(int i=0;i<10;i++)
-	    scanf("%d",&rollNo[i]);
-	
-	//printing
-	for(int i=0;i<10;i++)
-	    printf("%d ",rollNo[i]);
-	return 0;
+int main(){
+    
+    return 0;
 }
+// #include <stdio.h>
+// #include <math.h>
+
+// int main() {
+//     int arr[10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};  // Initialize the array with some values
+//     int n;
+
+//     printf("Enter Number (0 to 9): ");
+//     scanf("%d", &n);
+
+//     if (n < 0 || n > 9) {
+//         printf("Invalid input! Please enter a number between 0 and 9.\n");
+//     } else {
+//         for (int i = 0; i <= n; i++) {
+//             printf("%d\n", arr[i]);
+//         }
+//     }
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+// #include <math.h>
+// int main(){
+//     int arr[10];
+//     // ={10,20,30,40,50}
+//     int n ;
+//     printf("Enter Number :");
+//     scanf("%d",&n);
+//     for(int i=0;i<=n;i++){
+//         printf("%d\n",arr[i]);
+//     }
+//     return 0;
+// }
+// #include<stdio.h>
+// int main(){
+// 	int arr[5],i;
+// 	printf("Enter value :");
+// 	scanf("%d",&arr[i]);
+
+// 	for (int i =0; i<=5;i++)
+// 	{
+// 		printf{
+// 			("")
+// 		}
+// 	}
+
+// 	return 0;
+// }
+// #include <stdio.h>
+// int main() {
+// 	//array declaration
+// 	int rollNo[10];
+	
+// 	//taking inputs
+// 	for(int i=0;i<10;i++)
+// 	    scanf("%d",&rollNo[i]);
+	
+// 	//printing
+// 	for(int i=0;i<10;i++)
+// 	    printf("%d ",rollNo[i]);
+// 	return 0;
+// }
 
 // // FOR LOOP 
 // // for loop to print numbers 1 to 100.
