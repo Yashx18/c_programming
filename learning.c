@@ -1,16 +1,47 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    int sum = 0, n;
-    printf("Enter number:");
-    scanf("%d",&n);
-    for (int i = 1; i <=10; i++){
-         printf("%d\n",sum);
-         sum=n;
-       
+    int arr[10]={10,20,30,40,50,60,70,80,90,100};
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d\n",arr[i]);
     }
+    
     return 0;
 }
+// #include <stdio.h>
+// int main()
+// {
+//     int arr[10];
+//     int n;
+//     printf("ENTER NUMBER :");
+//     scanf("%d",&n);
+//     if( n>=10){
+//         printf("Enter a number less than 10");
+//         return 1;
+//     }
+//        for (int i = 0; i < 10; i++) {
+//         arr[i] = n; // Example initialization
+//     }
+
+//     for (int i = 0; i <= n; i++)
+//     {
+//         printf("%d\n",arr[i]);
+//     }
+//     return 0;
+// }
 // #include<stdio.h>
+// int main(){
+//     int sum = 0, n;
+//     printf("Enter number:");
+//     scanf("%d",&n);
+//     for (int i = 1; i <=10; i++){
+//          printf("%d\n",sum);
+//          sum=n;
+
+//     }
+//     return 0;
+// }
+// // #include<stdio.h>
 // int main(){
 //     float radius;
 //     printf("Enter radius of circle :");
@@ -93,14 +124,13 @@ int main(){
 //     return 0;
 // // } whenever our numerator is negative, our remainder is also negative
 
-
 // #include <stdio.h>
 // int main()
 // {
 //     int a= 4 , b = 5;
 //     printf("%d\n", a !=b);
 //         printf("%d\n", a ==b);
-      
+
 //     return 0;
 // }
 
@@ -139,8 +169,7 @@ int main(){
 //     } else if(c<a && c<b){
 //         printf("%d is smallest",c);
 //     }
-   
-      
+
 //     return 0;
 // }
 
@@ -160,7 +189,6 @@ int main(){
 
 // STARTING FUNCTIONS IN C.
 
-
 // #include<stdio.h>
 // int main (){
 //     void print(){
@@ -176,7 +204,7 @@ int main(){
 // // function declaration / prototype
 //  void Ph();
 // int main(){
- 
+
 //    for(int i=1;i<=10;i++){
 //    Ph() ; //funtion Call
 //    }
@@ -205,14 +233,14 @@ int main(){
 //     printf("good bye :)\n");  //( Definition)
 // }
 
-//Write a function that prints Namaste if user is Indian & Bonjour if the user is french
-// #include<stdio.h>
-// void Indian();
-// void French();
-// int main(){
-//     char ethnicity;
-//     printf("Enter your ethnicity(F / I) :");
-//     scanf("%c",&ethnicity);
+// Write a function that prints Namaste if user is Indian & Bonjour if the user is french
+//  #include<stdio.h>
+//  void Indian();
+//  void French();
+//  int main(){
+//      char ethnicity;
+//      printf("Enter your ethnicity(F / I) :");
+//      scanf("%c",&ethnicity);
 
 //     if( ethnicity == 'I'){
 //         Indian();
@@ -239,8 +267,6 @@ int main(){
 //     printf("Enter your second number");
 //     scanf("%d",&b);
 
-   
-    
 //     return 0;
 // }
 // int sum(int a , int b){
